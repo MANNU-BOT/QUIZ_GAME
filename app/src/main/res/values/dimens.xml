@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="cardheight">130dp</dimen>
+    <dimen name="cardtextsize">18dp</dimen>
+    <dimen name="cardlayoutMargin">16dp</dimen>
+    <dimen name="cornerElevation">8dp</dimen>
+    <dimen name="cornerRadius">8dp</dimen>
+
+</resources>

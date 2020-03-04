@@ -1,0 +1,82 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="Splash" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="feedback">
+        <item name="android:textSize">30dp</item>
+        <item name="fontFamily">sans-serif-black</item>
+        <item name="android:layout_margin">12dp</item>
+    </style>
+    <style name="result">
+        <item name="fontFamily">sans-serif-black</item>
+        <item name="android:textColor">#F4E667</item>
+        <item name="android:textSize">32dp</item>
+        <item name="android:padding">8dp</item>
+        <item name="android:layout_marginTop">16dp</item>
+        <item name="android:layout_marginBottom">16dp</item>
+
+    </style>
+    <style name="intro">
+        <item name="fontFamily">sans-serif-black</item>
+        <item name="android:textColor">#f4e667</item>
+        <item name="android:textSize">24dp</item>
+        <item name="android:layout_marginTop">16dp</item>
+    </style>
+    <style name="edits">
+        <item name="fontFamily">sans-serif-condensed-light</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:layout_marginTop">40dp</item>
+        <item name="android:layout_marginLeft">12dp</item>
+        <item name="android:layout_marginRight">12dp</item>
+
+    </style>
+
+    <style name="emailedits" parent="edits">
+        <item name="android:inputType">text|textImeMultiLine</item>
+        <item name="android:textColorHint">#76D0F3</item>
+        <item name="android:autofillHints"></item>
+    </style>
+
+    <style name="dobedits" parent="edits">
+        <item name="android:inputType">text|textImeMultiLine</item>
+        <item name="android:textColorHint">#76D0F3</item>
+        <item name="android:autofillHints"></item>
+    </style>
+
+    <style name="nameedits" parent="edits">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="android:textColorHint">#76D0F3</item>
+        <item name="android:inputType">text|textImeMultiLine</item>
+        <item name="android:autofillHints">Enter your name</item>
+    </style>
+
+    <style name="datepickeredits">
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_marginTop">12dp</item>
+        <item name="android:calendarTextColor">#76d0f3</item>
+        <item name="android:visibility">gone</item>
+    </style>
+
+    <style name="buttonedits">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_marginTop">12dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/roundbutton</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+
+
+</resources>

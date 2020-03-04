@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backimg">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/intro"
+        android:gravity="center"
+        android:text="@string/Intro" />
+
+    <EditText
+        style="@style/edits"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:hint="@string/name"
+        android:textColorHint="#76D0F3"
+        android:inputType="text|textImeMultiLine"
+        android:autofillHints="Enter your name" />
+
+    <EditText
+        style="@style/edits"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:hint="@string/email"
+        android:inputType="text|textImeMultiLine"
+        android:textColorHint="#76D0F3"
+        android:autofillHints="" />
+
+    <EditText
+        style="@style/edits"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:hint="@string/dob"
+        android:inputType="text|textImeMultiLine"
+        android:textColorHint="#76D0F3"
+        android:autofillHints="" />
+
+    <DatePicker
+        android:layout_gravity="center"
+        android:layout_marginTop="70dp"
+        android:layout_width="268dp"
+        android:calendarTextColor="#76d0f3"
+        android:layout_height="256dp"/>
+
+    <Button
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/roundbutton"
+        android:text="@string/NEXT" />
+
+</LinearLayout>

@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">QuizGame</string>
+    <string name="feedback">Please give your FeedBack</string>
+    <string name="textview">FEEDBACK</string>
+    <string name="FINISH">FINISH</string>
+    <string name="playagain">PLAY AGAIN</string>
+    <string name="zero">0</string>
+    <string name="yourscore">YOUR SCORE IS</string>
+    <string name="Intro">Enter Your Name,E-mail ID and DOB</string>
+    <string name="name">Enter Name</string>
+    <string name="email">Enter E-Mail ID</string>
+    <string name="dob">Enter Date Of Birth</string>
+    <string name="NEXT">NEXT</string>
+    <string name="JAVA">JAVA QUIZ</string>
+    <string name="CSS">CSS QUIZ</string>
+    <string name="PYTHON">PYTHON QUIZ</string>
+    <string name="JS_QUIZ">JS QUIZ</string>
+    <string name="web">WEB BROWSER</string>
+    <string name="HELP">HELP</string>
+</resources>
