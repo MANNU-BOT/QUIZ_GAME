@@ -11,6 +11,32 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="2">
+        <TextView
+            android:id="@+id/ST1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Hello"
+            android:gravity="center"
+            android:layout_marginTop="20dp"
+            android:textSize="@dimen/welcometextsize"
+            />
+        <TextView
+            android:id="@+id/ST2"
+            android:layout_below="@id/ST1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Hello"
+            android:textStyle="bold"
+            android:textColor="#A03AD8"
+            android:gravity="center"
+            android:textSize="@dimen/nametextsize"/>
+        <TextView
+            android:layout_below="@id/ST2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/instruct"
+            android:textColor="#150505"
+            android:gravity="center"/>
 
     </RelativeLayout>
 
@@ -47,6 +73,7 @@
                     android:orientation="vertical">
 
                     <ImageView
+                        android:id="@+id/javaid"
                         android:layout_width="wrap_content"
                         android:layout_height="@dimen/cardheight"
                         android:layout_gravity="center_horizontal"
@@ -90,6 +117,7 @@
                     android:orientation="vertical">
 
                     <ImageView
+                        android:id="@+id/jsid"
                         android:layout_width="wrap_content"
                         android:layout_height="@dimen/cardheight"
                         android:layout_gravity="center_horizontal"
@@ -133,6 +161,7 @@
                     android:orientation="vertical">
 
                     <ImageView
+                        android:id="@+id/cssid"
                         android:layout_width="wrap_content"
                         android:layout_height="@dimen/cardheight"
                         android:layout_gravity="center_horizontal"
@@ -176,6 +205,7 @@
                     android:orientation="vertical">
 
                     <ImageView
+                        android:id="@+id/pythonid"
                         android:layout_width="wrap_content"
                         android:layout_height="@dimen/cardheight"
                         android:layout_gravity="center_horizontal"
@@ -219,6 +249,7 @@
                     android:orientation="vertical">
 
                     <ImageView
+                        android:id="@+id/webid"
                         android:layout_width="wrap_content"
                         android:layout_height="@dimen/cardheight"
                         android:layout_gravity="center_horizontal"
@@ -262,6 +293,7 @@
                     android:orientation="vertical">
 
                     <ImageView
+                        android:id="@+id/helpid"
                         android:layout_width="wrap_content"
                         android:layout_height="@dimen/cardheight"
                         android:layout_gravity="center_horizontal"

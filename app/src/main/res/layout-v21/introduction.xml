@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical" android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools" android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/backimg">
 
@@ -8,31 +8,54 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         style="@style/intro"
-        android:layout_gravity="center_horizontal"
+        android:gravity="center"
         android:text="@string/Intro" />
 
     <EditText
-        style="@style/nameedits"
-        android:hint="@string/name" />
-
-    <EditText
-        style="@style/emailedits"
+        android:id="@+id/editnamebutton"
+        style="@style/edits"
         android:layout_width="match_parent"
         android:layout_height="40dp"
-        android:hint="@string/email" />
+        android:autofillHints="Enter your name"
+        android:hint="@string/name"
+        android:inputType="text|textImeMultiLine"
+        android:textColorHint="#76D0F3" />
 
     <EditText
-        style="@style/dobedits"
+        android:id="@+id/emailidbutton"
+        style="@style/edits"
         android:layout_width="match_parent"
         android:layout_height="40dp"
-        android:hint="@string/dob" />
+        android:autofillHints=""
+        android:hint="@string/email"
+        android:inputType="textWebEmailAddress|text|textImeMultiLine"
+        android:textColorHint="#76D0F3" />
+
+    <EditText
+        android:id="@+id/dobbutton"
+        style="@style/edits"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:autofillHints=""
+        android:hint="@string/dob"
+        android:inputType="text|textImeMultiLine"
+        android:textColorHint="#76D0F3" />
 
     <DatePicker
+        android:id="@+id/datepickerbutton"
         android:layout_width="268dp"
         android:layout_height="256dp"
-        style="@style/datepickeredits" />
+        android:layout_gravity="center"
+        android:layout_marginTop="70dp"
+        android:calendarTextColor="#76d0f3" tools:targetApi="lollipop"/>
+
     <Button
-        android:text="@string/NEXT"
-        style="@style/buttonedits" />
+        android:id="@+id/introbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/roundbutton"
+        android:text="@string/NEXT" />
 
 </LinearLayout>

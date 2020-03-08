@@ -1,6 +1,299 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/backimg"
+    android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <!--QUIZ 1 avialable here-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"
+        android:orientation="vertical">
+
+        <ImageView
+            android:src="@drawable/one"
+            android:contentDescription="@string/contetentDescription"
+            style="@style/questionImageStyle" />
+
+        <TextView
+            android:text="@string/jq1"
+            style="@style/questionTextStyle" />
+
+
+        <RadioGroup
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp">
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/radioButtonMargin"
+                android:text="@string/OPTION_1" />
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/radioButtonMargin"
+                android:text="@string/OPTION_2" />
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/radioButtonMargin"
+                android:text="@string/OPTION_3" />
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/radioButtonMargin"
+                android:text="@string/OPTION_4" />
+
+        </RadioGroup>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="80dp"
+            android:background="@drawable/roundbutton"
+            android:text="@string/NEXT" />
+    </LinearLayout>
+
+    <!--QUIZ 2 is available here-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"
+        android:orientation="vertical">
+
+        <ImageView
+            android:src="@drawable/two"
+            android:contentDescription="@string/contetentDescription"
+            style="@style/questionImageStyle" />
+
+        <TextView
+            android:text="@string/jq2"
+            style="@style/questionTextStyle" />
+
+
+        <RadioGroup
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp">
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/radioButtonMargin"
+                android:text="@string/OPTION_1" />
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/radioButtonMargin"
+                android:text="@string/OPTION_2" />
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/radioButtonMargin"
+                android:text="@string/OPTION_3" />
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/radioButtonMargin"
+                android:text="@string/OPTION_4" />
+
+        </RadioGroup>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="80dp"
+            android:background="@drawable/roundbutton"
+            android:text="@string/NEXT" />
+    </LinearLayout>
+
+    <!--QUIZ 3 is available here-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="visible"
+        android:orientation="vertical">
+
+        <ImageView
+            android:src="@drawable/three"
+            android:contentDescription="@string/contetentDescription"
+            style="@style/questionImageStyle" />
+
+        <TextView
+            android:text="@string/jq3"
+            style="@style/questionTextStyle" />
+
+
+        <RadioGroup
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp">
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/radioButtonMargin"
+                android:text="@string/OPTION_1" />
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/radioButtonMargin"
+                android:text="@string/OPTION_2" />
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/radioButtonMargin"
+                android:text="@string/OPTION_3" />
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/radioButtonMargin"
+                android:text="@string/OPTION_4" />
+
+        </RadioGroup>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="80dp"
+            android:background="@drawable/roundbutton"
+            android:text="@string/NEXT" />
+    </LinearLayout>
+
+    <!--QUIZ 4 is available here-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"
+        android:orientation="vertical">
+
+        <ImageView
+            android:src="@drawable/four"
+            android:contentDescription="@string/contetentDescription"
+            style="@style/questionImageStyle" />
+
+        <TextView
+            android:text="@string/jq4"
+            style="@style/questionTextStyle" />
+
+
+        <RadioGroup
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp">
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/radioButtonMargin"
+                android:text="@string/OPTION_1" />
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/radioButtonMargin"
+                android:text="@string/OPTION_2" />
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/radioButtonMargin"
+                android:text="@string/OPTION_3" />
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/radioButtonMargin"
+                android:text="@string/OPTION_4" />
+
+        </RadioGroup>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="80dp"
+            android:background="@drawable/roundbutton"
+            android:text="@string/NEXT" />
+    </LinearLayout>
+
+    <!--QUIZ 5 is available here-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"
+        android:orientation="vertical">
+
+        <ImageView
+            android:src="@drawable/five"
+            android:contentDescription="@string/contetentDescription"
+            style="@style/questionImageStyle" />
+
+        <TextView
+            android:text="@string/jq5"
+            style="@style/questionTextStyle" />
+
+
+        <RadioGroup
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp">
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/radioButtonMargin"
+                android:text="@string/OPTION_1" />
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/radioButtonMargin"
+                android:text="@string/OPTION_2" />
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/radioButtonMargin"
+                android:text="@string/OPTION_3" />
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/radioButtonMargin"
+                android:text="@string/OPTION_4" />
+
+        </RadioGroup>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="80dp"
+            android:background="@drawable/roundbutton"
+            android:text="@string/FINISH" />
+    </LinearLayout>
+
+
+</RelativeLayout>

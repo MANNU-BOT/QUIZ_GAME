@@ -5,5 +5,9 @@
     <dimen name="cardlayoutMargin">16dp</dimen>
     <dimen name="cornerElevation">8dp</dimen>
     <dimen name="cornerRadius">8dp</dimen>
+    <dimen name="welcometextsize">28dp</dimen>
+    <dimen name="nametextsize">36sp</dimen>
+    <dimen name="radioButtonMargin">4dp</dimen>
+    <dimen name="radioGroupMargin">16dp</dimen>
 
 </resources>

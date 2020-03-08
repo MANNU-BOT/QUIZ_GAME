@@ -1,20 +1,63 @@
 <resources>
+    <!--General Text-->
     <string name="app_name">QuizGame</string>
     <string name="feedback">Please give your FeedBack</string>
     <string name="textview">FEEDBACK</string>
-    <string name="FINISH">FINISH</string>
-    <string name="playagain">PLAY AGAIN</string>
     <string name="zero">0</string>
     <string name="yourscore">YOUR SCORE IS</string>
     <string name="Intro">Enter Your Name,E-mail ID and DOB</string>
     <string name="name">Enter Name</string>
     <string name="email">Enter E-Mail ID</string>
     <string name="dob">Enter Date Of Birth</string>
-    <string name="NEXT">NEXT</string>
+    <string name="contetentDescription">Nothing</string>
+    <string name="instruct">Choose the Quiz you want to Play</string>
+    <string name="youlost">YOU LOST \n PRESS BUTTON TO TRY AGAIN</string>
+    <string name="nodescription">Nothing to tell</string>
+    <string name="ImageDescription">Images are with Copyright</string>
+
+    <!--Card View Names-->
     <string name="JAVA">JAVA QUIZ</string>
     <string name="CSS">CSS QUIZ</string>
     <string name="PYTHON">PYTHON QUIZ</string>
     <string name="JS_QUIZ">JS QUIZ</string>
     <string name="web">WEB BROWSER</string>
     <string name="HELP">HELP</string>
+
+    <!--POP text-->
+    <string name="YOUWON">YOU DID ALL CORRECT!!!</string>
+    <string name="Hello">HELLO!!</string>
+    <string name="FINISH">FINISH</string>
+    <string name="NEXT">NEXT</string>
+    <string name="playagain">PLAY AGAIN</string>
+    <string name="QUIT">Leave The game</string>
+    <string name="SUBMIT">SUBMIT</string>
+    <string name="RETRY">RETRY</string>
+
+    <!--All the questions-->
+    <string name="jq1">Java question one is given here and answer are given</string>
+    <string name="jq2">Java question two is given here and answer are given</string>
+    <string name="jq3">Java question three is given here and answer are given</string>
+    <string name="jq4">Java question four is given here and answer are given</string>
+    <string name="jq5">Java question five is given here and answer are given</string>
+    <string name="jsq1">Java script question one is given here and answer are given</string>
+    <string name="jsq2">Java script question two is given here and answer are given</string>
+    <string name="jsq3">Java script question three is given here and answer are given</string>
+    <string name="jsq4">Java script question four is given here and answer are given</string>
+    <string name="jsq5">Java script question five is given here and answer are given</string>
+    <string name="cq1">css question one is given here and answer are given</string>
+    <string name="cq2">css question two is given here and answer are given</string>
+    <string name="cq3">css question three is given here and answer are given</string>
+    <string name="cq4">css question four is given here and answer are given</string>
+    <string name="cq5">css question five is given here and answer are given</string>
+    <string name="pq1">python question one is given here and answer are given</string>
+    <string name="pq2">python question two is given here and answer are given</string>
+    <string name="pq3">python question three is given here and answer are given</string>
+    <string name="pq4">python question four is given here and answer are given</string>
+    <string name="pq5">python question five is given here and answer are given</string>
+
+    <!--Options-->
+    <string name="OPTION_1">Answer number 1</string>
+    <string name="OPTION_2">Answer number 2</string>
+    <string name="OPTION_3">Answer number 3</string>
+    <string name="OPTION_4">Answer number 4</string>
 </resources>
