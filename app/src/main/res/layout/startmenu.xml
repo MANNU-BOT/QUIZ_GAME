@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/backimg"
@@ -61,36 +62,34 @@
             app:cardCornerRadius="@dimen/cornerRadius"
             app:cardElevation="@dimen/cornerElevation">
 
-            <ScrollView
+
+            <LinearLayout
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content">
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:layout_margin="@dimen/cardlayoutMargin"
+                android:orientation="vertical"
+                tools:ignore="UseCompoundDrawables">
 
-                <LinearLayout
+                <ImageView
+                    android:id="@+id/javaid"
                     android:layout_width="wrap_content"
+                    android:layout_height="@dimen/cardheight"
+                    android:layout_gravity="center_horizontal"
+                    android:contentDescription="@string/ImageDescription"
+                    android:src="@drawable/java" />
+
+                <TextView
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_gravity="center_horizontal|center_vertical"
-                    android:layout_margin="@dimen/cardlayoutMargin"
-                    android:orientation="vertical">
+                    android:gravity="center_horizontal"
+                    android:text="@string/JAVA"
+                    android:textAlignment="center"
+                    android:textColor="#000000"
+                    android:textSize="@dimen/cardtextsize"
+                    android:textStyle="bold" />
 
-                    <ImageView
-                        android:id="@+id/javaid"
-                        android:layout_width="wrap_content"
-                        android:layout_height="@dimen/cardheight"
-                        android:layout_gravity="center_horizontal"
-                        android:src="@drawable/java" />
-
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:gravity="center_horizontal"
-                        android:text="@string/JAVA"
-                        android:textAlignment="center"
-                        android:textColor="#000000"
-                        android:textSize="@dimen/cardtextsize"
-                        android:textStyle="bold" />
-
-                </LinearLayout>
-            </ScrollView>
+            </LinearLayout>
 
         </androidx.cardview.widget.CardView>
 
@@ -105,36 +104,35 @@
             app:cardCornerRadius="@dimen/cornerRadius"
             app:cardElevation="@dimen/cornerElevation">
 
-            <ScrollView
+
+
+            <LinearLayout
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content">
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:layout_margin="@dimen/cardlayoutMargin"
+                android:orientation="vertical"
+                tools:ignore="UseCompoundDrawables">
 
-                <LinearLayout
+                <ImageView
+                    android:id="@+id/jsid"
                     android:layout_width="wrap_content"
+                    android:layout_height="@dimen/cardheight"
+                    android:layout_gravity="center_horizontal"
+                    android:contentDescription="@string/ImageDescription"
+                    android:src="@drawable/js" />
+
+                <TextView
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_gravity="center_horizontal|center_vertical"
-                    android:layout_margin="@dimen/cardlayoutMargin"
-                    android:orientation="vertical">
+                    android:gravity="center_horizontal"
+                    android:text="@string/JS_QUIZ"
+                    android:textAlignment="center"
+                    android:textColor="#000000"
+                    android:textSize="@dimen/cardtextsize"
+                    android:textStyle="bold" />
 
-                    <ImageView
-                        android:id="@+id/jsid"
-                        android:layout_width="wrap_content"
-                        android:layout_height="@dimen/cardheight"
-                        android:layout_gravity="center_horizontal"
-                        android:src="@drawable/js" />
-
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:gravity="center_horizontal"
-                        android:text="@string/JS_QUIZ"
-                        android:textAlignment="center"
-                        android:textColor="#000000"
-                        android:textSize="@dimen/cardtextsize"
-                        android:textStyle="bold" />
-
-                </LinearLayout>
-            </ScrollView>
+            </LinearLayout>
 
         </androidx.cardview.widget.CardView>
 
@@ -149,36 +147,35 @@
             app:cardCornerRadius="@dimen/cornerRadius"
             app:cardElevation="@dimen/cornerElevation">
 
-            <ScrollView
+
+
+            <LinearLayout
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content">
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:layout_margin="@dimen/cardlayoutMargin"
+                android:orientation="vertical"
+                tools:ignore="UseCompoundDrawables">
 
-                <LinearLayout
+                <ImageView
+                    android:id="@+id/cssid"
                     android:layout_width="wrap_content"
+                    android:layout_height="@dimen/cardheight"
+                    android:layout_gravity="center_horizontal"
+                    android:contentDescription="@string/ImageDescription"
+                    android:src="@drawable/css" />
+
+                <TextView
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_gravity="center_horizontal|center_vertical"
-                    android:layout_margin="@dimen/cardlayoutMargin"
-                    android:orientation="vertical">
+                    android:gravity="center_horizontal"
+                    android:text="@string/CSS"
+                    android:textAlignment="center"
+                    android:textColor="#000000"
+                    android:textSize="@dimen/cardtextsize"
+                    android:textStyle="bold" />
 
-                    <ImageView
-                        android:id="@+id/cssid"
-                        android:layout_width="wrap_content"
-                        android:layout_height="@dimen/cardheight"
-                        android:layout_gravity="center_horizontal"
-                        android:src="@drawable/css" />
-
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:gravity="center_horizontal"
-                        android:text="@string/CSS"
-                        android:textAlignment="center"
-                        android:textColor="#000000"
-                        android:textSize="@dimen/cardtextsize"
-                        android:textStyle="bold" />
-
-                </LinearLayout>
-            </ScrollView>
+            </LinearLayout>
 
         </androidx.cardview.widget.CardView>
 
@@ -193,36 +190,35 @@
             app:cardCornerRadius="@dimen/cornerRadius"
             app:cardElevation="@dimen/cornerElevation">
 
-            <ScrollView
+
+
+            <LinearLayout
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content">
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:layout_margin="@dimen/cardlayoutMargin"
+                android:orientation="vertical"
+                tools:ignore="UseCompoundDrawables">
 
-                <LinearLayout
+                <ImageView
+                    android:id="@+id/pythonid"
                     android:layout_width="wrap_content"
+                    android:layout_height="@dimen/cardheight"
+                    android:layout_gravity="center_horizontal"
+                    android:contentDescription="@string/ImageDescription"
+                    android:src="@drawable/python" />
+
+                <TextView
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_gravity="center_horizontal|center_vertical"
-                    android:layout_margin="@dimen/cardlayoutMargin"
-                    android:orientation="vertical">
+                    android:gravity="center_horizontal"
+                    android:text="@string/PYTHON"
+                    android:textAlignment="center"
+                    android:textColor="#000000"
+                    android:textSize="@dimen/cardtextsize"
+                    android:textStyle="bold" />
 
-                    <ImageView
-                        android:id="@+id/pythonid"
-                        android:layout_width="wrap_content"
-                        android:layout_height="@dimen/cardheight"
-                        android:layout_gravity="center_horizontal"
-                        android:src="@drawable/python" />
-
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:gravity="center_horizontal"
-                        android:text="@string/PYTHON"
-                        android:textAlignment="center"
-                        android:textColor="#000000"
-                        android:textSize="@dimen/cardtextsize"
-                        android:textStyle="bold" />
-
-                </LinearLayout>
-            </ScrollView>
+            </LinearLayout>
 
         </androidx.cardview.widget.CardView>
 
@@ -237,36 +233,35 @@
             app:cardCornerRadius="@dimen/cornerRadius"
             app:cardElevation="@dimen/cornerElevation">
 
-            <ScrollView
+
+            <LinearLayout
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content">
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:layout_margin="@dimen/cardlayoutMargin"
+                android:orientation="vertical"
+                tools:ignore="UseCompoundDrawables">
 
-                <LinearLayout
+                <ImageView
+                    android:id="@+id/webid"
                     android:layout_width="wrap_content"
+                    android:layout_height="@dimen/cardheight"
+                    android:layout_gravity="center_horizontal"
+                    android:contentDescription="@string/ImageDescription"
+                    android:src="@drawable/web" />
+
+                <TextView
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_gravity="center_horizontal|center_vertical"
-                    android:layout_margin="@dimen/cardlayoutMargin"
-                    android:orientation="vertical">
+                    android:gravity="center_horizontal"
+                    android:text="@string/web"
+                    android:textAlignment="center"
+                    android:textColor="#000000"
+                    android:textSize="@dimen/cardtextsize"
+                    android:textStyle="bold" />
 
-                    <ImageView
-                        android:id="@+id/webid"
-                        android:layout_width="wrap_content"
-                        android:layout_height="@dimen/cardheight"
-                        android:layout_gravity="center_horizontal"
-                        android:src="@drawable/web" />
+            </LinearLayout>
 
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:gravity="center_horizontal"
-                        android:text="@string/web"
-                        android:textAlignment="center"
-                        android:textColor="#000000"
-                        android:textSize="@dimen/cardtextsize"
-                        android:textStyle="bold" />
-
-                </LinearLayout>
-            </ScrollView>
 
         </androidx.cardview.widget.CardView>
 
@@ -281,36 +276,36 @@
             app:cardCornerRadius="@dimen/cornerRadius"
             app:cardElevation="@dimen/cornerElevation">
 
-            <ScrollView
+
+
+            <LinearLayout
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content">
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:layout_margin="@dimen/cardlayoutMargin"
+                android:orientation="vertical"
+                tools:ignore="UseCompoundDrawables">
 
-                <LinearLayout
+                <ImageView
+                    android:id="@+id/helpid"
                     android:layout_width="wrap_content"
+                    android:layout_height="@dimen/cardheight"
+                    android:layout_gravity="center_horizontal"
+                    android:contentDescription="@string/ImageDescription"
+                    android:src="@drawable/help" />
+
+                <TextView
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_gravity="center_horizontal|center_vertical"
-                    android:layout_margin="@dimen/cardlayoutMargin"
-                    android:orientation="vertical">
+                    android:gravity="center_horizontal"
+                    android:text="@string/HELP"
+                    android:textAlignment="center"
+                    android:textColor="#000000"
+                    android:textSize="@dimen/cardtextsize"
+                    android:textStyle="bold" />
 
-                    <ImageView
-                        android:id="@+id/helpid"
-                        android:layout_width="wrap_content"
-                        android:layout_height="@dimen/cardheight"
-                        android:layout_gravity="center_horizontal"
-                        android:src="@drawable/help" />
+            </LinearLayout>
 
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:gravity="center_horizontal"
-                        android:text="@string/HELP"
-                        android:textAlignment="center"
-                        android:textColor="#000000"
-                        android:textSize="@dimen/cardtextsize"
-                        android:textStyle="bold" />
-
-                </LinearLayout>
-            </ScrollView>
 
         </androidx.cardview.widget.CardView>
 

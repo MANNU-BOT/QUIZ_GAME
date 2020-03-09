@@ -24,6 +24,7 @@
         android:src="@drawable/retry" />
 
         <TextView
+            android:id="@+id/retryImageId"
             android:layout_width="match_parent"
             android:layout_height="450dp"
             android:gravity="center"
@@ -31,10 +32,11 @@
     </RelativeLayout>
 
     <Button
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="70dp"
-        android:layout_marginRight="70dp"
+        android:layout_gravity="center"
+        android:paddingRight="50dp"
+        android:paddingLeft="50dp"
 
         android:background="@drawable/roundbutton"
         android:text="@string/QUIT" />

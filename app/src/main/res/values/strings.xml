@@ -14,6 +14,7 @@
     <string name="youlost">YOU LOST \n PRESS BUTTON TO TRY AGAIN</string>
     <string name="nodescription">Nothing to tell</string>
     <string name="ImageDescription">Images are with Copyright</string>
+    <string name="YOUWON">YOU DID ALL CORRECT!!!</string>
 
     <!--Card View Names-->
     <string name="JAVA">JAVA QUIZ</string>
@@ -23,15 +24,25 @@
     <string name="web">WEB BROWSER</string>
     <string name="HELP">HELP</string>
 
-    <!--POP text-->
-    <string name="YOUWON">YOU DID ALL CORRECT!!!</string>
+    <!--BUTTON texts-->
     <string name="Hello">HELLO!!</string>
     <string name="FINISH">FINISH</string>
     <string name="NEXT">NEXT</string>
-    <string name="playagain">PLAY AGAIN</string>
-    <string name="QUIT">Leave The game</string>
+    <string name="playagain">STARTMENU</string>
+    <string name="QUIT">    Leave The game   </string>
     <string name="SUBMIT">SUBMIT</string>
     <string name="RETRY">RETRY</string>
+    <string name="Instructions">INSTRUCTIONS</string>
+    <string name="Feedback">FEEDBACK</string>
+    <string name="ReportBugs">REPORT BUGS</string>
+    <string name="SEND">        SEND      </string>
+    <string name="goBACK">BACK</string>
+
+    <!--Instruction-->
+    <string name="card1instructions">JAVA :- \nRules are Simple \nVery Very Simple</string>
+    <string name="card2instructions">JAVA SCRIPT :- \nRules are Simple \nVery Very Simple</string>
+    <string name="card3instructions">CSS :- \nRules are Simple \nVery Very Simple</string>
+    <string name="card4instructions">PYTHON :- \nRules are Simple \nVery Very Simple</string>
 
     <!--All the questions-->
     <string name="jq1">Java question one is given here and answer are given</string>
@@ -60,4 +71,5 @@
     <string name="OPTION_2">Answer number 2</string>
     <string name="OPTION_3">Answer number 3</string>
     <string name="OPTION_4">Answer number 4</string>
+    <string name="reportHint">Write Your Problem Here</string>
 </resources>
